@@ -8,12 +8,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <title>Vinylery</title>
   </head>
   <body>
     <header>
       <div class="header-container">
         <nav>
+            <input id="hamburger" type="checkbox" class="hamburger" />
+            <label class="hamburger-icon" for="hamburger">
+              <div class="line upper-line"></div>
+              <div class="line middle-line"></div>
+              <div class="line lower-line"></div>
+            </label>
           <ul>
             <li><a href="#headline1">Welcome</a></li>
             <li><a href="#headline2">Pricing</a></li>
@@ -26,10 +33,10 @@
     </header>
     <main>
       <div class="main-content">
-        <section class="welcome">
+        <section class="welcome-text">
           <h2><a name="headline1"></a>Welcome</h2>
           <div class="welcome-content">
-            <img
+            <img class="image-1"
               src="welcome-img.png"
               width="490"
               style="

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1050px) {
+  .main-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  h1 {
+    margin-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .welcome-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-1 {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+
+  .pricing-content {
+    flex-wrap: wrap;
+    flex-basis: 28%;
+    margin-left: 4%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  h1 {
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /*---hamburger---*/
+
+  .hamburger {
+    display: block;
+    opacity: 0;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger:checked ~ ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .line {
+    transition: all 0.2s;
+  }
+
+  .hamburger:checked ~ .hamburger-icon .line {
+    transition: all 0.2s;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .image-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .welcome-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
